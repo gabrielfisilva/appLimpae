@@ -34,7 +34,7 @@
         android:textColorHint="#fff"
         android:inputType="textPersonName"
         tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="65dp" />
+        tools:layout_editor_absoluteY="65dp"/>
 
     <EditText
         android:id="@+id/etPassword"
