@@ -1,5 +1,6 @@
 package com.example.gfili.limpae;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.EditText;
@@ -14,5 +15,13 @@ public class PrincipalActivity extends AppCompatActivity {
 
         final EditText etUsername = (EditText) findViewById(R.id.etUsername);
         final TextView bemVindo = (TextView) findViewById(R.id.tvBemVindo);
+
+        Intent intent = getIntent();
+        String username = intent.getStringExtra("username");
+
+        String message = "Bem vindo a sua area";
+        bemVindo.setText(message);
+        etUsername.setText(username);
+
     }
 }
