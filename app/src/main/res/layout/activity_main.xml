@@ -42,46 +42,61 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Conheça mais"/>
+
         <Button
-            android:layout_marginTop="5dp"
-            android:background="@drawable/buttonstyle2"
-            android:textColor="#fff"
+            android:id="@+id/bJuntar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Junte-se a nós"/>
+            android:layout_marginTop="5dp"
+            android:background="@drawable/buttonstyle2"
+            android:text="Junte-se a nós"
+            android:textColor="#fff" />
 
     </LinearLayout>
 
 
 
 </LinearLayout>
-    
+
     <LinearLayout
-        android:gravity="center"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:gravity="center"
         android:orientation="vertical">
+
         <EditText
-            android:drawablePadding="10dp"
+            android:id="@+id/etUsername"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
             android:drawableLeft="@drawable/ic_person_black_24dp"
-            android:layout_width="350dp"
-            android:layout_height="wrap_content"
-            android:hint="USUÁRIO"/>
-        <EditText
             android:drawablePadding="10dp"
-         android:drawableLeft="@drawable/ic_lock_black_24dp"
+            android:hint="USUÁRIO" />
+
+        <EditText
+            android:id="@+id/etPassword"
             android:layout_width="350dp"
             android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_lock_black_24dp"
+            android:drawablePadding="10dp"
             android:hint="SENHA"
-            android:inputType="textPassword"/>
+            android:inputType="textPassword" />
+
         <Button
-            android:layout_marginTop="40dp"
-            android:width="140dp"
+            android:id="@+id/bEntrar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:width="140dp"
             android:background="@drawable/buttonstylepink"
             android:text="ENTRAR"
             android:textColor="#fff" />
+
+        <TextView
+            android:id="@+id/tvRegistro"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:text="Registrar"
+            android:textSize="18sp" />
 
     </LinearLayout>
 
