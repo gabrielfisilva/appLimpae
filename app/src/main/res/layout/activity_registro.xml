@@ -8,48 +8,53 @@
     android:orientation="vertical">
 
     <LinearLayout
+        android:gravity="center"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:orientation="vertical"
-        android:padding="30dp"
         android:background="@color/colorPrimaryDark">
 
     <EditText
         android:id="@+id/etNome"
-        android:layout_width="328dp"
-        android:layout_height="42dp"
-        android:ems="10"
-        android:hint="Nome"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:hint="Nome Completo"
+        android:textColorHint="#fff"
         android:inputType="textPersonName"
         tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="16dp" />
+        tools:layout_editor_absoluteY="16dp"/>
 
     <EditText
         android:id="@+id/etLogin"
-        android:layout_width="326dp"
+        android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="Username"
+        android:hint="Usuário"
+        android:textColorHint="#fff"
         android:inputType="textPersonName"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="65dp" />
 
     <EditText
         android:id="@+id/etPassword"
-        android:layout_width="327dp"
+        android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="Password"
+        android:hint="Senha"
+        android:textColorHint="#fff"
         android:inputType="textPassword"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="123dp" />
 
+
     <Button
+        android:layout_marginTop="40dp"
         android:id="@+id/bRegistrar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Registrar"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="186dp" />
+        android:background="@drawable/buttonstylepink"
+        android:textColor="#fff"/>
 </LinearLayout>
 </LinearLayout>

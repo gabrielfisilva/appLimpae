@@ -92,10 +92,11 @@
             android:textColor="#fff" />
 
         <TextView
+            android:layout_marginTop="10dp"
             android:id="@+id/tvRegistro"
             android:layout_width="wrap_content"
             android:layout_height="45dp"
-            android:text="Registrar"
+            android:text="Criar Conta"
             android:textSize="18sp" />
 
     </LinearLayout>
