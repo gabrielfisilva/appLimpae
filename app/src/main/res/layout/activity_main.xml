@@ -29,27 +29,31 @@
        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus est dolor, tincidunt eu neque lobortis, vulputate euismod diam. Integer ac imperdiet dui."
         android:textSize="15sp"
         android:layout_marginTop="10dp"/>
+
     <LinearLayout
         android:layout_marginTop="20dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:layout_gravity="center">
+
         <Button
             android:layout_marginTop="5dp"
             android:background="@drawable/buttonstylepink"
             android:textColor="#fff"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="130dp"
+            android:layout_height="65dp"
+            android:layout_marginRight="10dp"
             android:text="Conheça mais"/>
 
         <Button
             android:id="@+id/bJuntar"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
+            android:layout_width="130dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="05dp"
+            android:layout_marginLeft="10dp"
             android:background="@drawable/buttonstyle2"
-            android:text="Junte-se a nós"
+            android:text="Seja uma passadeira"
             android:textColor="#fff" />
 
     </LinearLayout>
@@ -70,7 +74,7 @@
             android:layout_height="wrap_content"
             android:drawableLeft="@drawable/ic_person_black_24dp"
             android:drawablePadding="10dp"
-            android:hint="Usuário" />
+            android:hint="Seu e-mail"/>
 
         <EditText
             android:id="@+id/etPassword"
@@ -78,26 +82,37 @@
             android:layout_height="wrap_content"
             android:drawableLeft="@drawable/ic_lock_black_24dp"
             android:drawablePadding="10dp"
-            android:hint="Senha"
+            android:hint="Sua senha"
             android:inputType="textPassword"/>
+
+
+        <TextView
+            android:layout_gravity="right"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Esqueci minha senha"
+            android:textSize="15sp"/>
+
 
         <Button
             android:id="@+id/bEntrar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="40dp"
+            android:layout_marginTop="20dp"
             android:width="140dp"
             android:background="@drawable/buttonstylepink"
             android:text="ENTRAR"
             android:textColor="#fff"/>
 
         <TextView
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="20dp"
             android:id="@+id/tvRegistro"
             android:layout_width="wrap_content"
             android:layout_height="45dp"
-            android:text="REGISTRA-SE"
-            android:textSize="15sp"/>
+            android:text="Criar conta"
+            android:textSize="18sp"/>
 
     </LinearLayout>
 

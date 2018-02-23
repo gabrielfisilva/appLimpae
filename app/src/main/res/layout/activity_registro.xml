@@ -7,21 +7,72 @@
     tools:context="com.example.gfili.limpae.MainActivity"
     android:orientation="vertical">
 
+
+    <android.support.design.widget.NavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@color/colorPrimaryDark">
+
+        <Button
+            android:layout_width="16sp"
+            android:layout_height="20sp"
+            android:background="@color/colorPrimaryDark"
+            android:drawableLeft="@drawable/ic_navigate_before_black_24dp"
+            android:layout_marginTop="12sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40sp"
+            android:layout_gravity="left"
+            android:text="Cadastro"
+            android:textColor="#fff"
+            android:textSize="30sp"
+            android:layout_marginLeft="30sp"/>
+
+
+    </android.support.design.widget.NavigationView>
+
     <LinearLayout
         android:gravity="center"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:background="@color/colorPrimaryDark">
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Criar sua conta é Simples: É só preencher os campos e começar a usar"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textColor="#000"
+        android:layout_marginBottom="20sp"/>
 
     <EditText
         android:id="@+id/etNome"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:ems="15"
-        android:hint="Nome Completo"
-        android:textColorHint="#fff"
+        android:hint="Nome completo"
         android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp"/>
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:hint="Celular"
+        android:inputType="phone"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp"/>
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:hint="CPF"
+        android:inputType="number"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="16dp"/>
 
@@ -30,9 +81,8 @@
         android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="Usuário"
-        android:textColorHint="#fff"
-        android:inputType="textPersonName"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="65dp"/>
 
@@ -42,7 +92,6 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="Senha"
-        android:textColorHint="#fff"
         android:inputType="textPassword"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="123dp" />
@@ -56,5 +105,8 @@
         android:text="Registrar"
         android:background="@drawable/buttonstylepink"
         android:textColor="#fff"/>
+
+
+
 </LinearLayout>
 </LinearLayout>
