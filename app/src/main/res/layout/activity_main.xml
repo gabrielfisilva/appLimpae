@@ -58,8 +58,6 @@
 
     </LinearLayout>
 
-
-
 </LinearLayout>
 
     <LinearLayout
@@ -85,7 +83,6 @@
             android:hint="Sua senha"
             android:inputType="textPassword"/>
 
-
         <TextView
             android:layout_gravity="right"
             android:layout_marginRight="10dp"
@@ -94,7 +91,6 @@
             android:layout_height="wrap_content"
             android:text="Esqueci minha senha"
             android:textSize="15sp"/>
-
 
         <Button
             android:id="@+id/bEntrar"

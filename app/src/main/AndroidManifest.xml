@@ -3,11 +3,15 @@
     package="com.example.gfili.limpae">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
 
     <!-- To auto-complete the email text field in the login form with the user's emails -->
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
     <uses-permission android:name="android.permission.READ_PROFILE" />
     <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+
 
     <application
         android:allowBackup="true"
@@ -46,6 +50,13 @@
         </activity>
         <activity android:name=".RegistroActivity" />
         <activity android:name=".PrincipalActivity" />
+        <activity
+            android:name=".NovoPedidoActivity"
+            android:label="@string/title_activity_novo_pedido"
+            android:theme="@style/AppTheme"></activity>
+
+
+
     </application>
 
 </manifest>

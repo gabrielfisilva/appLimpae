@@ -14,19 +14,18 @@
         android:padding="10dp"
         android:background="@color/colorPrimaryDark">
 
-        <Button
-            android:layout_width="16sp"
-            android:layout_height="20sp"
-            android:background="@color/colorPrimaryDark"
-            android:drawableLeft="@drawable/ic_navigate_before_black_24dp"
-            android:layout_marginTop="12sp"/>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:background="@drawable/ic_navigate_before_black_24dp"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="40sp"
             android:layout_gravity="left"
             android:text="Cadastro"
-            android:textColor="#fff"
+            android:textColor="#ffff"
             android:textSize="30sp"
             android:layout_marginLeft="30sp"/>
 
