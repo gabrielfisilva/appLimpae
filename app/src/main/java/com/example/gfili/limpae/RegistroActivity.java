@@ -1,10 +1,12 @@
 package com.example.gfili.limpae;
 
 import android.content.Intent;
+import android.os.Bundle;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
+import android.view.Menu;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -18,16 +20,24 @@ import org.json.JSONObject;
 
 public class RegistroActivity extends AppCompatActivity {
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_registro);
+        Toolbar myToolbar = findViewById(R.id.tb_principal);
+        setSupportActionBar(myToolbar);
 
-        final EditText etNome = (EditText) findViewById(R.id.etNome);
-        final EditText etUsername = (EditText) findViewById(R.id.etLogin);
-        final EditText etPassword = (EditText) findViewById(R.id.etPassword);
+        ActionBar ab = getSupportActionBar();
 
-        final Button bRegistrar = (Button) findViewById(R.id.bRegistrar);
+        ab.setDisplayHomeAsUpEnabled(true);
+
+
+        final EditText etNome = findViewById(R.id.etNome);
+        final EditText etUsername = findViewById(R.id.etLogin);
+        final EditText etPassword = findViewById(R.id.etPassword);
+
+        final Button bRegistrar = findViewById(R.id.bRegistrar);
 
         bRegistrar.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -67,5 +77,10 @@ public class RegistroActivity extends AppCompatActivity {
         });
 
 
+    }
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.menu_actionbar, menu);
+        return true;
     }
 }

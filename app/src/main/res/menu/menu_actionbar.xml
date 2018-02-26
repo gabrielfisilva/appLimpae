@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.gfili.limpae.RegistroActivity">
+
+    <!-- "Mark Favorite", should appear as action button if possible -->
+    <item
+        android:id="@+id/action_favorite"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Teste"
+        app:showAsAction="always"/>
+
+    <!-- Settings, should always be in the overflow -->
+
+</menu>
