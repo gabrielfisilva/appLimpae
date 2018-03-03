@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
                             if (success){
                                 String username = jsonResponse.getString("username");
 
-                                Intent intent = new Intent(MainActivity.this, PrincipalActivity.class);
+                                Intent intent = new Intent(MainActivity.this, NovoPedidoActivity.class);
                                 intent.putExtra("username", username);
 
                                 MainActivity.this.startActivity(intent);
