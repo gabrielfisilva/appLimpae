@@ -19,7 +19,7 @@
         <!--android:id="@+id/navigation"-->
         <!--android:layout_width="match_parent"-->
         <!--android:layout_height="wrap_content"-->
-        <!--android:padding="10dp"-->
+        <!--android:padding="10sp"-->
         <!--android:background="@color/colorPrimaryDark"-->
         <!--app:menu="@menu/menu_main">-->
 
@@ -59,41 +59,41 @@
 
     <EditText
         android:id="@+id/etNome"
-        android:layout_width="350dp"
+        android:layout_width="350sp"
         android:layout_height="wrap_content"
         android:ems="15"
         android:hint="Nome completo"
         android:inputType="textPersonName"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="16dp"/>
+        tools:layout_editor_absoluteX="16sp"
+        tools:layout_editor_absoluteY="16sp"/>
 
     <EditText
-        android:layout_width="350dp"
+        android:layout_width="350sp"
         android:layout_height="wrap_content"
         android:ems="15"
         android:hint="Celular"
         android:inputType="phone"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="16dp"/>
+        tools:layout_editor_absoluteX="16sp"
+        tools:layout_editor_absoluteY="16sp"/>
 
     <EditText
-        android:layout_width="350dp"
+        android:layout_width="350sp"
         android:layout_height="wrap_content"
         android:ems="15"
         android:hint="CPF"
         android:inputType="number"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="16dp"/>
+        tools:layout_editor_absoluteX="16sp"
+        tools:layout_editor_absoluteY="16sp"/>
 
     <EditText
         android:id="@+id/etLogin"
-        android:layout_width="350dp"
+        android:layout_width="350sp"
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="Email"
         android:inputType="textEmailAddress"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="65dp"/>
+        tools:layout_editor_absoluteX="16sp"
+        tools:layout_editor_absoluteY="65sp"/>
 
     <EditText
         android:id="@+id/etPassword"
@@ -102,12 +102,12 @@
         android:ems="10"
         android:hint="Senha"
         android:inputType="textPassword"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="123dp" />
+        tools:layout_editor_absoluteX="16sp"
+        tools:layout_editor_absoluteY="123sp" />
 
 
     <Button
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="40sp"
         android:id="@+id/bRegistrar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

@@ -19,19 +19,19 @@
             android:textColor="@color/colorAccent"
             android:text="Conheça Mais"
             android:layout_gravity="center"
-            android:layout_marginTop="20dp"/>
+            android:layout_marginTop="20sp"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="15dp"
+            android:textSize="15sp"
             android:textColor="#fff"
             android:text="O Passâe conecta famílias que precisam do serviço de lava e passa com pessoas preparadas e disponíveis para facilitar o nosso dia a dia.
 
 Com poucos toques você combina com a passadeira mais próxima os serviços de lava e/ou passa, quantidade de roupas e a logística de retirada e entrega e pronto, é só passar depois pra retirar suas roupas cheirosas e passadas."
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
-            android:layout_marginTop="20dp"/>
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp"
+            android:layout_marginTop="20sp"/>
 
     </LinearLayout>
 

@@ -11,7 +11,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:padding="30dp"
+    android:padding="30sp"
     android:background="@color/colorPrimaryDark">
 
     <TextView
@@ -28,30 +28,30 @@
         android:textColor="#fff"
        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus est dolor, tincidunt eu neque lobortis, vulputate euismod diam. Integer ac imperdiet dui."
         android:textSize="15sp"
-        android:layout_marginTop="10dp"/>
+        android:layout_marginTop="10sp"/>
 
     <LinearLayout
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="20sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:layout_gravity="center">
 
         <Button
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="5sp"
             android:background="@drawable/buttonstylepink"
             android:textColor="#fff"
-            android:layout_width="130dp"
-            android:layout_height="65dp"
-            android:layout_marginRight="10dp"
+            android:layout_width="130sp"
+            android:layout_height="65sp"
+            android:layout_marginRight="10sp"
             android:text="Conheça mais"/>
 
         <Button
             android:id="@+id/bJuntar"
-            android:layout_width="130dp"
-            android:layout_height="65dp"
-            android:layout_marginTop="05dp"
-            android:layout_marginLeft="10dp"
+            android:layout_width="130sp"
+            android:layout_height="65sp"
+            android:layout_marginTop="05sp"
+            android:layout_marginLeft="10sp"
             android:background="@drawable/buttonstyle2"
             android:text="Passe conosco"
             android:textColor="#fff" />
@@ -68,15 +68,15 @@
 
         <EditText
             android:id="@+id/etUsername"
-            android:layout_width="350dp"
+            android:layout_width="350sp"
             android:layout_height="wrap_content"
             android:drawableLeft="@drawable/ic_person_black_24dp"
-            android:drawablePadding="10dp"
+            android:drawablePadding="10sp"
             android:hint="Seu e-mail"/>
 
         <EditText
             android:id="@+id/etPassword"
-            android:layout_width="350dp"
+            android:layout_width="350sp"
             android:layout_height="wrap_content"
             android:drawableLeft="@drawable/ic_lock_black_24dp"
             android:drawablePadding="10dp"
@@ -85,8 +85,8 @@
 
         <TextView
             android:layout_gravity="right"
-            android:layout_marginRight="10dp"
-            android:layout_marginTop="5dp"
+            android:layout_marginRight="10sp"
+            android:layout_marginTop="5sp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Esqueci minha senha"
@@ -96,17 +96,17 @@
             android:id="@+id/bEntrar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:width="140dp"
+            android:layout_marginTop="20sp"
+            android:width="140sp"
             android:background="@drawable/buttonstylepink"
             android:text="ENTRAR"
             android:textColor="#fff"/>
 
         <TextView
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="20sp"
             android:id="@+id/tvRegistro"
             android:layout_width="wrap_content"
-            android:layout_height="45dp"
+            android:layout_height="45sp"
             android:text="Criar conta"
             android:textSize="18sp"/>
 
