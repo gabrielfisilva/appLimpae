@@ -15,21 +15,21 @@
 
     <TextView
         android:id="@+id/tvBemVindo"
-        android:layout_width="329sp"
-        android:layout_height="36sp"
+        android:layout_width="329dp"
+        android:layout_height="36dp"
         android:text="Login efetuado com sucesso"
-        android:textSize="24sp"
-        tools:layout_editor_absoluteX="16sp"
-        tools:layout_editor_absoluteY="16sp" />
+        android:textSize="24dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
 
     <TextView
         android:id="@+id/tvUsuario"
-        android:layout_width="92sp"
-        android:layout_height="31sp"
+        android:layout_width="92dp"
+        android:layout_height="31dp"
         android:text="Username"
-        android:textSize="18sp"
-        tools:layout_editor_absoluteX="16sp"
-        tools:layout_editor_absoluteY="67sp" />
+        android:textSize="18dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="67dp" />
 
     <EditText
         android:id="@+id/etUsername"
@@ -37,8 +37,8 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        tools:layout_editor_absoluteX="16sp"
-        tools:layout_editor_absoluteY="98sp"/>
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="98dp"/>
 
     </LinearLayout>
 </LinearLayout>

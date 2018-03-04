@@ -15,30 +15,30 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="40sp"
+            android:textSize="40dp"
             android:textColor="@color/colorAccent"
             android:text="Passe Conosco"
             android:layout_gravity="center"
-            android:layout_marginTop="20sp"/>
+            android:layout_marginTop="20dp"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="15sp"
+            android:textSize="15dp"
             android:textColor="#fff"
             android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pharetra ante sit amet sapien maximus, at mollis elit finibus. Cras at accumsan lectus, a ullamcorper odio. Quisque a blandit orci. In ac lacinia purus, quis auctor elit. Nunc et interdum leo. Sed placerat nisi eu sem vehicula, eu imperdiet metus imperdiet.
 
             Nunc tempor fermentum felis nec laoreet. Donec vitae nulla vitae orci dignissim efficitur eget vitae dolor. Nullam hendrerit lacinia massa porttitor rutrum."
-            android:layout_marginLeft="20sp"
-            android:layout_marginRight="20sp"
-            android:layout_marginTop="20sp"/>
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"/>
 
         <Button
             android:id="@+id/bBaixarApp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="50sp"
-            android:width="140sp"
+            android:layout_marginTop="50dp"
+            android:width="140dp"
             android:background="@drawable/buttonstylepink"
             android:text="BAIXAR APP"
             android:textColor="#fff"
